@@ -102,3 +102,59 @@
 .wp-block-media-text {
   @apply grid grid-cols-2 gap-4;
 }
+.header-img-wrapper {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.main-description {
+  margin-top: 100px;
+  color: rgb(140, 109, 38);
+  color: rgb(140, 109, 38);
+  display: block;
+  font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 22px;
+  font-weight: 500;
+  height: 112px;
+  line-height: 28px;
+  margin-block-end: 14.4px;
+  margin-block-start: 0px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  text-align: justify;
+  text-size-adjust: 100%;
+  width: 708px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.description-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.footer-wrapper {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+}
+.home-btn {
+  width: 300px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: rgb(154, 175, 142);
+  border-color: rgb(154, 175, 142);
+  margin: 10px;
+}
+.homepage-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}

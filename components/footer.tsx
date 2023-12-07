@@ -1,30 +1,45 @@
-import Container from './container'
-import { EXAMPLE_PATH } from '../lib/constants'
+import Container from "./container";
+import { EXAMPLE_PATH } from "../lib/constants";
 
 export default function Footer() {
   return (
-    <footer className="bg-accent-1 border-t border-accent-2">
-      <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Statically Generated with Next.js.
-          </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="https://nextjs.org/docs/basic-features/pages"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-            >
-              Read Documentation
-            </a>
-            <a
-              href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-              className="mx-3 font-bold hover:underline"
-            >
-              View on GitHub
-            </a>
+    <footer className="footer p-10 bg-base-200 text-base-content">
+      <nav>
+        <header className="footer-title">Services</header>
+        <a className="link link-hover">Branding</a>
+        <a className="link link-hover">Design</a>
+        <a className="link link-hover">Marketing</a>
+        <a className="link link-hover">Advertisement</a>
+      </nav>
+      <nav>
+        <header className="footer-title">Company</header>
+        <a className="link link-hover">About us</a>
+        <a className="link link-hover">Contact</a>
+        <a className="link link-hover">Jobs</a>
+        <a className="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <header className="footer-title">Legal</header>
+        <a className="link link-hover">Terms of use</a>
+        <a className="link link-hover">Privacy policy</a>
+        <a className="link link-hover">Cookie policy</a>
+      </nav>
+      <form>
+        <header className="footer-title">Newsletter</header>
+        <fieldset className="form-control w-80">
+          <label className="label">
+            <span className="label-text">Enter your email address</span>
+          </label>
+          <div className="join">
+            <input
+              type="text"
+              placeholder="username@site.com"
+              className="input input-bordered join-item"
+            />
+            <button className="btn btn-primary join-item">Subscribe</button>
           </div>
-        </div>
-      </Container>
+        </fieldset>
+      </form>
     </footer>
-  )
+  );
 }

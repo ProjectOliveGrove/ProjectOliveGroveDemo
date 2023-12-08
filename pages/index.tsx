@@ -45,11 +45,11 @@ export default function Index({ allPosts: { edges }, preview }) {
         </div>
         <div className="description-wrapper">
           <p className="main-description">
-            Our mission is to cultivate an informed electorate by empowering
-            American voters through education. We are dedicated to creating a
-            nonpartisan and impartial space that allows voters to confidently
-            align their choices with their values, fostering a stronger
-            democracy.
+            This is our mission: Our mission is to cultivate an informed
+            electorate by empowering American voters through education. We are
+            dedicated to creating a nonpartisan and impartial space that allows
+            voters to confidently align their choices with their values,
+            fostering a stronger democracy.
           </p>
         </div>
       </div>
